@@ -52,6 +52,8 @@ changeGridButton.addEventListener('click', () => {
     if(value > 100){
         alert('Cannot be higher than 100!');
     }
+    else if(value == null){
+    }
     else{
         container.replaceChildren();
         makeGrid(value);
