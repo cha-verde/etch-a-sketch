@@ -1,8 +1,13 @@
+@font-face {
+    font-family: Golykiss-Magict;
+    src: url(Golykiss-Magict.woff);
+  }
+
 body{
+    font-family: Golykiss-Magict;
     background-color: white;
     margin: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -11,6 +16,27 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gridContainer{
+    display: flex;
     flex-wrap: wrap;
     width: 640px;
+}
+
+#changeGridButton{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Golykiss-Magict;
+}
+
+#changeGridButton:hover{
+    background-color: black;
+    color: white;
 }
